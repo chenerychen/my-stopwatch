@@ -16,18 +16,18 @@ window.onload = function () {
     // setInternal() executes the passed function for the given time interval. The number id value returned by setInterval() function is stored in a variable and it's passed itto the clearInterval() function 
     buttonStart.onclick = function () {
         clearInterval(StartInterval);
-        clearInterval(CountDownInterval); 
+        // clearInterval(CountDownInterval); 
         StartInterval = setInterval(startTimer, 10);
     }
 
     buttonStop.onclick = function () {
         clearInterval(StartInterval);
-        clearInterval(CountDownInterval); 
+        // clearInterval(CountDownInterval); 
     }
 
     buttonReset.onclick = function () {
         clearInterval(StartInterval);
-        clearInterval(CountDownInterval); 
+        // clearInterval(CountDownInterval); 
         tens = "00";
         seconds = "00";
         appendTens.innerHTML = tens;
