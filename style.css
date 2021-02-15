@@ -1,0 +1,66 @@
+
+
+body {
+    background-color: rgb(106, 16, 190);
+    font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    height: 100%;
+}
+
+.wrapper {
+    width: 800px; 
+    margin: 50px auto; 
+    color: rgb(176, 202, 8); 
+    text-align: center;
+}
+
+p {
+    font-family: "Robot", sans-serif;
+    font-weight: 100;
+    font-size:2.6em; 
+    text-transform: uppercase;
+}
+
+#second #tens {
+    font-size: 2.2em;
+}
+
+/*  */
+button {
+    background-color: rgb(197, 2, 197);
+    color: white; 
+    border: 1px solid black; 
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 5px 15px; 
+    width: 150px; 
+    margin: 10px;
+    outline: none;  /*if not none, it will show lines over the page */
+    font-weight: bold;
+}   
+
+
+#button-start {
+    background-color: rgb(118, 160, 36);
+}
+
+#button-countdown {
+    background-color: rgb(212, 61, 6);
+}
+
+/* #button-stop {
+    background-color: rgb(144, 108, 75);
+
+} */
+
+#button-reset {
+    background-color: rgb(31, 8, 17);
+}
+
+button:hover{
+    background-color: rgb(179, 131, 43);
+    box-shadow: 0 3px #666;
+    transform: translateY(-6px);
+}
+
